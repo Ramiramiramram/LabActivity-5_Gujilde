@@ -30,7 +30,7 @@ $(document).ready(function(){
                             <li class="pokemon-type">
                                 ${typesHtml}
                             </li>
-                            </ul>s
+                            </ul>
                         </div>`
                     );
 
