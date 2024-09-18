@@ -3,7 +3,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url('Pokemon Dataset/Background.png');
+    background-color: gray;
     background-attachment: fixed;
     background-position:center;
 }
@@ -17,12 +17,11 @@ body h1{
 .pokemon-container{
     display: inline-grid;
     grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
-    gap: 15px;
+    gap: 17px;
 }
 .card{
     background-color: #ffffff;
     border-width: 10px;
-    border-color: black;
     width: 150px;
     height: 220px;  
     border-radius: 10px;
@@ -48,64 +47,15 @@ body h1{
     color: blue;
     font-weight: bold;
 }
-.card:hover:has(.grass){
-    background-color: #ffffff;
-    border-width: 10px;
-    border-color: black;
-    width: 150px;
-    height: 220px;  
-    border-radius: 10px;
-    filter:drop-shadow(0 1px 15px #7AC74C);
-    transition: 0.3s;
-}
-.card:hover:has(.fire){
-    background-color: #ffffff;
-    border-width: 10px;
-    border-color: black;
-    width: 150px;
-    height: 220px;  
-    border-radius: 10px;
-    filter:drop-shadow(0 1px 15px #EE8130);
-    transition: 0.3s;
-}
-.card:hover:has(.water){
-    background-color: #ffffff;
-    border-width: 10px;
-    border-color: black;
-    width: 150px;
-    height: 220px;  
-    border-radius: 10px;
-    filter:drop-shadow(0 1px 15px #6390F0);
-    transition: 0.3s;
-}
 .card:hover:has(.normal){
-    background-color: #ffffff;
-    border-width: 10px;
-    border-color: black;
-    width: 150px;
-    height: 220px;  
-    border-radius: 10px;
-    filter:drop-shadow(0 1px 15px #A8A77A);
-    transition: 0.3s;
-}
-.grass-type{
-    background-color: #7AC74C;
-}
-.fire-type{
-    background-color: #EE8130;
-}
-.water-type{
-    background-color: #6390F0;
-}
-.normal-type{
-    background-color: #A8A77A
-}
-.grass{
-    background-color: #7AC74C;
-    color: #ffffff;
-    border-radius: 30px;
-    padding-left: 5px;
-    padding-right: 5px;
+  background-color: #ffffff;
+  border-width: 10px;
+  border-color: black;
+  width: 150px;
+  height: 220px;  
+  border-radius: 10px;
+  filter:drop-shadow(0 1px 15px #A8A77A);
+  transition: 0.3s;
 }
 .fire{
     background-color: #EE8130;
@@ -114,12 +64,32 @@ body h1{
     padding-left: 5px;
     padding-right: 5px;
 }
+.card:hover:has(.fire){
+  background-color: #ffffff;
+  border-width: 10px;
+  border-color: black;
+  width: 150px;
+  height: 220px;  
+  border-radius: 10px;
+  filter:drop-shadow(0 1px 15px #EE8130);
+  transition: 0.3s;
+}
 .water{
     background-color: #6390F0;
     color: #ffffff;
     border-radius: 30px;
     padding-left: 5px;
     padding-right: 5px;
+}
+.card:hover:has(.water){
+  background-color: #ffffff;
+  border-width: 10px;
+  border-color: black;
+  width: 150px;
+  height: 220px;  
+  border-radius: 10px;
+  filter:drop-shadow(0 1px 15px #6390F0);
+  transition: 0.3s;
 }
 .poison{
     background-color: #A33EA1;
@@ -128,12 +98,49 @@ body h1{
     padding-left: 5px;
     padding-right: 5px;
 }
+.card:hover:has(.poison){
+  background-color: #ffffff;
+  border-width: 10px;
+  border-color: black;
+  width: 150px;
+  height: 220px;  
+  border-radius: 10px;
+  filter:drop-shadow(0 1px 15px #A33EA1);
+  transition: 0.3s;
+}
+.grass{
+    background-color: #7AC74C;
+    color: #ffffff;
+    border-radius: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.card:hover:has(.grass){
+  background-color: #ffffff;
+  border-width: 10px;
+  border-color: black;
+  width: 150px;
+  height: 220px;  
+  border-radius: 10px;
+  filter:drop-shadow(0 1px 15px #7AC74C);
+  transition: 0.3s;
+}
 .electric{
     background-color: #F7D02C;
     color: #ffffff;
     border-radius: 30px;
     padding-left: 5px;
     padding-right: 5px;
+}
+.card:hover:has(.electric){
+  background-color: #ffffff;
+  border-width: 10px;
+  border-color: black;
+  width: 150px;
+  height: 220px;  
+  border-radius: 10px;
+  filter:drop-shadow(0 1px 15px #F7D02C);
+  transition: 0.3s;
 }
 .ice{
     background-color: #96D9D6;
@@ -142,12 +149,32 @@ body h1{
     padding-left: 5px;
     padding-right: 5px;
 }
+.card:hover:has(.ice){
+  background-color: #ffffff;
+  border-width: 10px;
+  border-color: black;
+  width: 150px;
+  height: 220px;  
+  border-radius: 10px;
+  filter:drop-shadow(0 1px 15px #96D9D6);
+  transition: 0.3s;
+}
 .fight{
     background-color: #C22E28;
     color: #ffffff;
     border-radius: 30px;
     padding-left: 5px;
     padding-right: 5px;
+}
+.card:hover:has(.fight){
+  background-color: #ffffff;
+  border-width: 10px;
+  border-color: black;
+  width: 150px;
+  height: 220px;  
+  border-radius: 10px;
+  filter:drop-shadow(0 1px 15px #C22E28);
+  transition: 0.3s;
 }
 .ground{
     background-color: #E2BF65;
@@ -156,12 +183,32 @@ body h1{
     padding-left: 5px;
     padding-right: 5px;
 }
+.card:hover:has(.ground){
+  background-color: #ffffff;
+  border-width: 10px;
+  border-color: black;
+  width: 150px;
+  height: 220px;  
+  border-radius: 10px;
+  filter:drop-shadow(0 1px 15px #E2BF65);
+  transition: 0.3s;
+}
 .flying{
     background-color: #A98FF3;
     color: #ffffff;
     border-radius: 30px;
     padding-left: 5px;
     padding-right: 5px;
+}
+.card:hover:has(.flying){
+  background-color: #ffffff;
+  border-width: 10px;
+  border-color: black;
+  width: 150px;
+  height: 220px;  
+  border-radius: 10px;
+  filter:drop-shadow(0 1px 15px #A98FF3);
+  transition: 0.3s;
 }
 .bug{
     background-color: #A6B91A;
@@ -170,12 +217,32 @@ body h1{
     padding-left: 5px;
     padding-right: 5px;
 }
+.card:hover:has(.bug){
+  background-color: #ffffff;
+  border-width: 10px;
+  border-color: black;
+  width: 150px;
+  height: 220px;  
+  border-radius: 10px;
+  filter:drop-shadow(0 1px 15px #A6B91A);
+  transition: 0.3s;
+}
 .rock{
     background-color: #B6A136;
     color: #ffffff;
     border-radius: 30px;
     padding-left: 5px;
     padding-right: 5px;
+}
+.card:hover:has(.rock){
+  background-color: #ffffff;
+  border-width: 10px;
+  border-color: black;
+  width: 150px;
+  height: 220px;  
+  border-radius: 10px;
+  filter:drop-shadow(0 1px 15px #B6A136);
+  transition: 0.3s;
 }
 .ghost{
     background-color: #735797;
@@ -184,12 +251,32 @@ body h1{
     padding-left: 5px;
     padding-right: 5px;
 }
+.card:hover:has(.ghost){
+  background-color: #ffffff;
+  border-width: 10px;
+  border-color: black;
+  width: 150px;
+  height: 220px;  
+  border-radius: 10px;
+  filter:drop-shadow(0 1px 15px #735797);
+  transition: 0.3s;
+}
 .dragon{
     background-color: #6F35FC;
     color: #ffffff;
     border-radius: 30px;
     padding-left: 5px;
     padding-right: 5px;
+}
+.card:hover:has(.dragon){
+  background-color: #ffffff;
+  border-width: 10px;
+  border-color: black;
+  width: 150px;
+  height: 220px;  
+  border-radius: 10px;
+  filter:drop-shadow(0 1px 15px #6F35FC);
+  transition: 0.3s;
 }
 .dark{
     background-color: #705746;
@@ -198,12 +285,32 @@ body h1{
     padding-left: 5px;
     padding-right: 5px;
 }
+.card:hover:has(.dark){
+  background-color: #ffffff;
+  border-width: 10px;
+  border-color: black;
+  width: 150px;
+  height: 220px;  
+  border-radius: 10px;
+  filter:drop-shadow(0 1px 15px #705746);
+  transition: 0.3s;
+}
 .steel{
     background-color: #B7B7CE;
     color: #ffffff;
     border-radius: 30px;
     padding-left: 5px;
     padding-right: 5px;
+}
+.card:hover:has(.steel){
+  background-color: #ffffff;
+  border-width: 10px;
+  border-color: black;
+  width: 150px;
+  height: 220px;  
+  border-radius: 10px;
+  filter:drop-shadow(0 1px 15px #B7B7CE);
+  transition: 0.3s;
 }
 .fairy{
     background-color: #D685AD;
@@ -212,12 +319,32 @@ body h1{
     padding-left: 5px;
     padding-right: 5px;
 }
+.card:hover:has(.fairy){
+  background-color: #ffffff;
+  border-width: 10px;
+  border-color: black;
+  width: 150px;
+  height: 220px;  
+  border-radius: 10px;
+  filter:drop-shadow(0 1px 15px #D685AD);
+  transition: 0.3s;
+}
 .psychic{
     background-color: #F95587;
     color: #ffffff;
     border-radius: 30px;
     padding-left: 5px;
     padding-right: 5px;
+}
+.card:hover:has(.psychic){
+  background-color: #ffffff;
+  border-width: 10px;
+  border-color: black;
+  width: 150px;
+  height: 220px;  
+  border-radius: 10px;
+  filter:drop-shadow(0 1px 15px #F95587);
+  transition: 0.3s;
 }
 .normal{
     background-color: #A8A77A;
@@ -226,15 +353,16 @@ body h1{
     padding-left: 5px;
     padding-right: 5px;
 }
+/* Pokemon.html Index */
 .pokemon-page {
-    width: 800px;
-    margin: 50px auto;
-    background-color: aliceblue;
-    padding: 25px;
-    border-radius: 5px;
-    box-shadow: 0px 1px 5px #00000065;
+  width: 800px;
+  margin: 50px auto;
+  background-color: aliceblue;
+  padding: 25px;
+  border-radius: 10px;    
+  box-shadow: 0px 1px 5px #00000065;
   }
-  
+
   .pokemon-page h1 {
     color: 000;
   }

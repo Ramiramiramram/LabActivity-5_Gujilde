@@ -34,7 +34,6 @@ $(document).ready(function(){
                         </div>`
                     );
 
-                    console.log(typesHtml);
             });
 
         });
