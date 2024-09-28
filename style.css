@@ -159,14 +159,14 @@ body h1{
   filter:drop-shadow(0 1px 15px #96D9D6);
   transition: 0.3s;
 }
-.fight{
+.fighting{
     background-color: #C22E28;
     color: #ffffff;
     border-radius: 30px;
     padding-left: 5px;
     padding-right: 5px;
 }
-.card:hover:has(.fight){
+.card:hover:has(.fighting){
   background-color: #ffffff;
   border-width: 10px;
   border-color: black;
@@ -353,14 +353,15 @@ body h1{
     padding-left: 5px;
     padding-right: 5px;
 }
-/* Pokemon.html Index */
+
+/* pokemon page style */
 .pokemon-page {
-  width: 800px;
-  margin: 50px auto;
-  background-color: aliceblue;
-  padding: 25px;
-  border-radius: 10px;    
-  box-shadow: 0px 1px 5px #00000065;
+    width: 800px;
+    margin: 50px auto;
+    background-color: aliceblue;
+    padding: 25px;
+    border-radius: 17px;
+    box-shadow: 0px 1px 5px #00000065;
   }
 
   .pokemon-page h1 {
