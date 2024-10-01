@@ -54,6 +54,7 @@ $(() => {
         let speed_per = (speed / 200) * 100;
         let total = hp + attack + defense + sp_attack + sp_defense + speed;
 
+        //stats values
         $(".hp-val").html(`<div>${hp}</div>`);
         $(".attack-val").html(`<div>${attack}</div>`);
         $(".defense-val").html(`<div>${defense}</div>`);
@@ -62,6 +63,7 @@ $(() => {
         $(".speed-val").html(`<div>${speed}</div>`);
         $(".total").html(`<div>${total}</div>`);
         
+        //stats visual animation
         $(".hp div").animate({ width: (200 / 100) * hp_per}, 1000);
         $(".attack div").animate({ width: (200 / 100) * attack_per}, 1000);
         $(".defense div").animate({ width: (200 / 100) * defense_per}, 1000);

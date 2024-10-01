@@ -57,6 +57,13 @@ body h1{
   filter:drop-shadow(0 1px 15px #A8A77A);
   transition: 0.3s;
 }
+.normal{
+    background-color: #A8A77A;
+    color: #ffffff;
+    border-radius: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
 .fire{
     background-color: #EE8130;
     color: #ffffff;
@@ -345,13 +352,6 @@ body h1{
   border-radius: 10px;
   filter:drop-shadow(0 1px 15px #F95587);
   transition: 0.3s;
-}
-.normal{
-    background-color: #A8A77A;
-    color: #ffffff;
-    border-radius: 30px;
-    padding-left: 5px;
-    padding-right: 5px;
 }
 
 /* pokemon page style */
