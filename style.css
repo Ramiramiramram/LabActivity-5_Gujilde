@@ -16,7 +16,7 @@ body h1{
 }
 .pokemon-container{
     display: inline-grid;
-    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto ;
     gap: 17px;
 }
 .card{
@@ -47,13 +47,6 @@ body h1{
     color: blue;
     font-weight: bold;
 }
-.normal{
-    background-color: #A8A77A;
-    color: #ffffff;
-    border-radius: 30px;
-    padding-left: 5px;
-    padding-right: 5px;
-}
 .card:hover:has(.normal){
   background-color: #ffffff;
   border-width: 10px;
@@ -64,12 +57,25 @@ body h1{
   filter:drop-shadow(0 1px 15px #A8A77A);
   transition: 0.3s;
 }
+.normal{
+    background-color: #A8A77A;
+    font-weight: 500;
+    font-size: 10px;
+    margin: auto 2px;
+    padding: 2px 5px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px -1px #000000d7;
+    color: white !important;
+}
 .fire{
     background-color: #EE8130;
-    color: #ffffff;
-    border-radius: 30px;
-    padding-left: 5px;
-    padding-right: 5px;
+    font-weight: 500;
+    font-size: 10px;
+    margin: auto 2px;
+    padding: 2px 5px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px -1px #000000d7;
+    color: white !important;
 }
 .card:hover:has(.fire){
   background-color: #ffffff;
@@ -83,10 +89,13 @@ body h1{
 }
 .water{
     background-color: #6390F0;
-    color: #ffffff;
-    border-radius: 30px;
-    padding-left: 5px;
-    padding-right: 5px;
+    font-weight: 500;
+    font-size: 10px;
+    margin: auto 2px;
+    padding: 2px 5px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px -1px #000000d7;
+    color: white !important;
 }
 .card:hover:has(.water){
   background-color: #ffffff;
@@ -100,10 +109,13 @@ body h1{
 }
 .poison{
     background-color: #A33EA1;
-    color: #ffffff;
-    border-radius: 30px;
-    padding-left: 5px;
-    padding-right: 5px;
+    font-weight: 500;
+    font-size: 10px;
+    margin: auto 2px;
+    padding: 2px 5px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px -1px #000000d7;
+    color: white !important;
 }
 .card:hover:has(.poison){
   background-color: #ffffff;
@@ -117,10 +129,13 @@ body h1{
 }
 .grass{
     background-color: #7AC74C;
-    color: #ffffff;
-    border-radius: 30px;
-    padding-left: 5px;
-    padding-right: 5px;
+    font-weight: 500;
+    font-size: 10px;
+    margin: auto 2px;
+    padding: 2px 5px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px -1px #000000d7;
+    color: white !important;
 }
 .card:hover:has(.grass){
   background-color: #ffffff;
@@ -134,10 +149,13 @@ body h1{
 }
 .electric{
     background-color: #F7D02C;
-    color: #ffffff;
-    border-radius: 30px;
-    padding-left: 5px;
-    padding-right: 5px;
+    font-weight: 500;
+    font-size: 10px;
+    margin: auto 2px;
+    padding: 2px 5px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px -1px #000000d7;
+    color: white !important;
 }
 .card:hover:has(.electric){
   background-color: #ffffff;
@@ -151,10 +169,13 @@ body h1{
 }
 .ice{
     background-color: #96D9D6;
-    color: #ffffff;
-    border-radius: 30px;
-    padding-left: 5px;
-    padding-right: 5px;
+    font-weight: 500;
+    font-size: 10px;
+    margin: auto 2px;
+    padding: 2px 5px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px -1px #000000d7;
+    color: white !important;
 }
 .card:hover:has(.ice){
   background-color: #ffffff;
@@ -168,10 +189,13 @@ body h1{
 }
 .fighting{
     background-color: #C22E28;
-    color: #ffffff;
-    border-radius: 30px;
-    padding-left: 5px;
-    padding-right: 5px;
+    font-weight: 500;
+    font-size: 10px;
+    margin: auto 2px;
+    padding: 2px 5px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px -1px #000000d7;
+    color: white !important;
 }
 .card:hover:has(.fighting){
   background-color: #ffffff;
@@ -185,10 +209,13 @@ body h1{
 }
 .ground{
     background-color: #E2BF65;
-    color: #ffffff;
-    border-radius: 30px;
-    padding-left: 5px;
-    padding-right: 5px;
+    font-weight: 500;
+    font-size: 10px;
+    margin: auto 2px;
+    padding: 2px 5px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px -1px #000000d7;
+    color: white !important;
 }
 .card:hover:has(.ground){
   background-color: #ffffff;
@@ -202,10 +229,13 @@ body h1{
 }
 .flying{
     background-color: #A98FF3;
-    color: #ffffff;
-    border-radius: 30px;
-    padding-left: 5px;
-    padding-right: 5px;
+    font-weight: 500;
+    font-size: 10px;
+    margin: auto 2px;
+    padding: 2px 5px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px -1px #000000d7;
+    color: white !important;
 }
 .card:hover:has(.flying){
   background-color: #ffffff;
@@ -219,10 +249,13 @@ body h1{
 }
 .bug{
     background-color: #A6B91A;
-    color: #ffffff;
-    border-radius: 30px;
-    padding-left: 5px;
-    padding-right: 5px;
+    font-weight: 500;
+    font-size: 10px;
+    margin: auto 2px;
+    padding: 2px 5px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px -1px #000000d7;
+    color: white !important;
 }
 .card:hover:has(.bug){
   background-color: #ffffff;
@@ -236,10 +269,13 @@ body h1{
 }
 .rock{
     background-color: #B6A136;
-    color: #ffffff;
-    border-radius: 30px;
-    padding-left: 5px;
-    padding-right: 5px;
+    font-weight: 500;
+    font-size: 10px;
+    margin: auto 2px;
+    padding: 2px 5px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px -1px #000000d7;
+    color: white !important;
 }
 .card:hover:has(.rock){
   background-color: #ffffff;
@@ -253,10 +289,13 @@ body h1{
 }
 .ghost{
     background-color: #735797;
-    color: #ffffff;
-    border-radius: 30px;
-    padding-left: 5px;
-    padding-right: 5px;
+    font-weight: 500;
+    font-size: 10px;
+    margin: auto 2px;
+    padding: 2px 5px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px -1px #000000d7;
+    color: white !important;
 }
 .card:hover:has(.ghost){
   background-color: #ffffff;
@@ -270,10 +309,13 @@ body h1{
 }
 .dragon{
     background-color: #6F35FC;
-    color: #ffffff;
-    border-radius: 30px;
-    padding-left: 5px;
-    padding-right: 5px;
+    font-weight: 500;
+    font-size: 10px;
+    margin: auto 2px;
+    padding: 2px 5px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px -1px #000000d7;
+    color: white !important;
 }
 .card:hover:has(.dragon){
   background-color: #ffffff;
@@ -287,10 +329,13 @@ body h1{
 }
 .dark{
     background-color: #705746;
-    color: #ffffff;
-    border-radius: 30px;
-    padding-left: 5px;
-    padding-right: 5px;
+    font-weight: 500;
+    font-size: 10px;
+    margin: auto 2px;
+    padding: 2px 5px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px -1px #000000d7;
+    color: white !important;
 }
 .card:hover:has(.dark){
   background-color: #ffffff;
@@ -304,10 +349,13 @@ body h1{
 }
 .steel{
     background-color: #B7B7CE;
-    color: #ffffff;
-    border-radius: 30px;
-    padding-left: 5px;
-    padding-right: 5px;
+    font-weight: 500;
+    font-size: 10px;
+    margin: auto 2px;
+    padding: 2px 5px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px -1px #000000d7;
+    color: white !important;
 }
 .card:hover:has(.steel){
   background-color: #ffffff;
@@ -321,10 +369,13 @@ body h1{
 }
 .fairy{
     background-color: #D685AD;
-    color: #ffffff;
-    border-radius: 30px;
-    padding-left: 5px;
-    padding-right: 5px;
+    font-weight: 500;
+    font-size: 10px;
+    margin: auto 2px;
+    padding: 2px 5px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px -1px #000000d7;
+    color: white !important;
 }
 .card:hover:has(.fairy){
   background-color: #ffffff;
@@ -338,10 +389,13 @@ body h1{
 }
 .psychic{
     background-color: #F95587;
-    color: #ffffff;
-    border-radius: 30px;
-    padding-left: 5px;
-    padding-right: 5px;
+    font-weight: 500;
+    font-size: 10px;
+    margin: auto 2px;
+    padding: 2px 5px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px -1px #000000d7;
+    color: white !important;
 }
 .card:hover:has(.psychic){
   background-color: #ffffff;

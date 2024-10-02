@@ -10,7 +10,7 @@ $(document).ready(function(){
             pokedex.forEach(pokemon => {
                 // console.log(pokemon);
                 
-                let id = (pokemon["id"] + 10000).toString().substring(1);
+                let id = pokemon["id"];
                 let name = pokemon["name"]["english"];
                 let image = pokemon["image"]["hires"];
                 let types = pokemon["type"];
